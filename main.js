@@ -40,6 +40,8 @@ document.querySelector("form").onsubmit = function() {
         if(newTask.value = placeholder="NewTask"){
             submit.disabled =true; 
             
+        }else{
+        submit.disabled =false;
         }
 
         newTask.value="";
